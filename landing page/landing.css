@@ -1,0 +1,261 @@
+*{
+  margin:0px;
+}
+.wrapper{
+  display:flex;
+}
+
+.col-left{
+  flex:2;
+  /* background-color: black; */
+  flex-direction:column;
+  /* color:white; */
+}
+.menu{
+  background-color:black;
+  height:80vh;
+
+}
+.menu h1{
+  color:white;
+  text-transform:uppercase;
+  padding:4px;
+}
+ol{
+
+margin:4rem 0rem;
+color:#d6d2d2;
+/* padding:0; */
+}
+li{
+  margin:3rem 0rem;
+  position:relative;
+  /* counter-increment:menu; */
+}
+li a{
+  text-decoration:none;
+  font-size:1.25rem;
+  color:rgb(110, 104, 104);
+}
+::marker{
+  font-size:0;
+}
+.active{
+  color:white;
+ }
+ /* ::before{
+  border-bottom:1px solid rgb(255, 255, 255);
+  width:200%;
+  height:1px;
+  position:absolute;
+  content:"";
+  left:0;
+ } */
+.footer{
+  height:30vh;
+  display:flex;
+  flex-direction: column;
+}
+
+.footer-top{
+  background-color:#e2743e;
+  display: flex;
+  flex:1;
+  justify-content: space-around;
+  padding:0.9rem;
+  /* font-size:1.2rem; */
+}
+.footer-top img{cursor:pointer;}
+
+.footer-bottom{
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex:4;
+  background-image:url(./img/next_img.jpg);
+  padding:1rem;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.footer-bottom img{cursor:pointer;}
+
+
+
+
+
+/* mid part of the website */
+
+.col-mid{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex:3;
+  /* font-size:2rem; */
+  /* border:1px solid black; */
+}
+.col-mid-heading{
+  /* border:1px solid black; */
+  /* padding:2rem 1rem; */
+  /* font-size:1.2rem; */
+  flex:1.7;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+}
+.col-mid-heading h3{
+/* border:1px solid black; */
+
+margin-top:1.5rem;
+color:grey;
+padding-left:1rem;
+/* padding:3rem; */
+width:27rem;
+/* border:1px solid black; */
+padding-bottom:1rem;
+font-size:1.4rem;
+}
+.col-mid-heading h2{
+  /* border:1px solid black; */
+  padding:1.5rem;
+  padding-left:1rem;
+  margin-top:-1rem;
+  /* margin-bottom:1.5rem; */
+  color:red;
+  font-size:3.5rem;
+}
+.edit{
+color:white;
+text-shadow: 2px 2px 4px #000000;
+}
+.container{
+  display:flex;
+  flex-direction:column;
+
+}
+.col-mid-content{
+  font-size:2rem;
+  display:flex;
+  /* border:1px solid yellow; */
+  flex-direction: column;
+  justify-content:flex-end;
+  color:white;
+  padding:2rem 6rem;
+  flex:2;
+}
+.container h2{
+  font-family:Gilroy-Extrabold,sans-serif;
+  text-transform: uppercase;
+  /* margin:0; */
+}
+.col-mid-content{
+  background-image: url(./img/hero.png);
+  background-repeat:no-repeat;
+}
+.action{
+  display:flex;
+  justify-content:space-between;
+  margin-top:50px;
+  cursor:pointer;
+}
+.eye {
+  border:1px solid none;
+  /* background-color:; */
+  border-radius:3rem;
+  padding:0.5rem;
+}
+
+.gap{
+  border-radius:3rem;
+  
+  /* border:1px solid white; */
+  /* padding:1rem; */
+}
+.gap {
+  color:white;
+}
+.gap span{
+  color:white;
+  padding:2rem;
+  font-size:20px;
+}
+
+/* right part of the website */
+.col-rgt{
+  flex:3;
+  display:flex;
+  flex-direction:column;
+
+
+}
+.rgt-top{
+ /* border:1px solid black; */
+ background-color:#EA9763;
+ display: flex;
+ flex-direction: column;
+justify-content:space-between;
+ /* justify-content:flex-end; */
+ background-image: url(./img/hero2.jpg);
+ background-repeat:no-repeat;
+ /* background-color:grey; */
+ flex:3;
+}
+.content{
+  display:flex;
+  justify-content:space-around;
+  margin-bottom:1rem;
+}
+.content h2{
+  color:white;
+  font-family: 'Oswald', sans-serif;
+  font-size:2rem;
+}
+.search-icon{
+  display: flex;
+  justify-content:flex-end;
+  padding:2rem;
+}
+.arrow img{
+  padding:1rem;
+}
+.arrow img, .search-icon img{
+  cursor:pointer;
+}
+.rgt-btm{
+  flex:2;
+  display:flex;
+  /* background-color:blue; */
+}
+.rgt-left p{
+  padding:1.3rem;
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  font-size:21px;
+}
+.rgt-left , .rgt-rgt{
+  flex:1;
+}
+.rgt-left{
+  background-color:black;
+}
+/* action element */
+.action .box-1,.action .box-2{
+  border:1px solid white;
+}
+.box-1 span{
+  color:white;
+}
+.box-2 span{
+  color:white;
+  padding-right:10px;
+  /* padding-bottom:10px; */
+}
+
+/* .aside{
+  border:1px solid black;
+  margin-top:10rem;
+  width:25%;
+  right:1px;
+  text-decoration:none;
+  position:absolute;
+  transform:rotate(90deg);
+} */

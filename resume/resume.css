@@ -1,0 +1,254 @@
+/* .name h1{
+animation:typing 3s steps(40,end),blink-caret.75s step-end infinite;
+white-space:nowrap;
+overflow: hidden;
+}
+@keyframes typing{
+from{width:0}to width:{100%}
+}
+@keyframes blink-caret {
+from,to{border-color: transparent}
+50%{border-color:white;}
+} */
+
+/* setting margin to 0px of all the content */
+   /* header */
+body{
+  font-famly:verdana;
+}
+*{
+  margin:0px;
+}
+/* setting background image in the header */
+#header-1{
+  height: 67vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity:0.7; */
+  background-image:url("./img/bh.jpg");
+}
+
+/* nav bar css content */
+#navi a{
+text-decoration:none;
+transition:color 0.3s;
+color:black;
+
+}
+
+#navi li{
+  display:inline-block;
+  margin-right:30px;
+  font-size:2rem;
+  font-weight: 900;
+  padding-top:10px;
+  /* padding-left:0px; */
+}
+
+#navi a:hover{
+  color:green;
+  border-bottom:1px solid green;
+}
+
+/* setting he navbar to center */
+.align-center{
+  text-align: center;
+}
+.name{
+  padding-top:7rem;
+  font-size:2.4rem;
+  letter-spacing:1rem;
+  text-align:center;
+}
+.icons ul{
+  list-style:none;
+  text-align: center;
+  padding-top:2rem;
+
+}
+.icons ul li{
+    padding-right:2rem;
+    display:inline-block;
+}
+.icons ul li a{
+  text-decoration: none;
+  color:black;
+  font-size:2rem;
+}
+.icons ul li a:hover{
+  border-bottom:2px solid black;
+}
+
+        /* about section */
+.imag{
+  height:12rem;
+  width:12rem;
+  margin:auto;
+  margin-top:-70px;
+  margin-bottom:30px;
+}
+.imag img{
+  height: 100%;
+  width:100%;
+  border-radius:50%;
+  box-shadow: 0px 0px 4px 2px red;
+
+}
+.abt-me{
+  margin-left:12.5%;
+  margin-right:12.5%;
+}
+.abt-me p{
+  font-family: sans-serif;
+  font-weight:100;
+  color:grey;
+}
+.txt{
+  color:#2857a4;
+}
+
+     /* different sections diff bg-color */
+section:nth-child(2n) {
+   background-color: #9e9b9b29;
+}
+section:nth-child(2n + 1) {
+   background-color: white;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+    /* skills section */
+#skills{
+margin-top:4em;
+min-height:350px;
+}
+.sec-skills{
+  color:#2857a4;
+  font-size:40px;
+
+}
+.skill-head{
+  text-align: center;
+  margin-top:1.2rem;
+  padding-top:1rem;
+  padding-bottom:2em;
+}
+.skill-1{
+  border-radius:25rem;
+  width:22%;
+  background-color:#dbdbdb;
+  /* padding:1rem; */
+}
+.skill-prog{
+  width:60%;
+  padding:12px;
+  border-top-left-radius:25rem;
+  border-bottom-left-radius:25rem;
+  background-color:#2857a4;
+}
+/* skills name */
+.skill-name>span{
+  color:white;
+  font-size:30px;
+}
+.skills-name{
+  display:flex;
+  flex-wrap:wrap;
+  /* border:1px solid black; */
+  /* flex-direction:row; */
+  justify-content:space-around;
+}
+
+/* for section-2 for skills */
+.skills-name-sec2{
+  margin-top:3rem;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.js{
+  background-color:#ec4d1c;
+  width:40;
+}
+.sql{
+  width:50%;
+  background-color:#0b8176;
+}
+.html{
+  width:65%;
+  background-color:#93738c;
+}
+.py{
+  width:35%;
+  background-color:#73937c;
+}
+
+
+/* education section */
+
+#education{  /*main big section */
+  width:99%;
+  justify-content:center;
+  border:1px solid black;
+}
+.ed-main{    /*main inner-big section */
+  border:1px solid black;
+  width:80%;
+  min-height:80%;
+  margin-left:10%;
+  /* display: ; */
+  /* height:30rem; */
+  /* margin-left:10%; */
+}
+.main-box-1,.main-box-2,.main-box-3{  /*three boxes inside education section*/
+  border:1px solid black;
+  width:40%;
+  position:relative;
+  height:14rem;
+
+}
+.ed-main-inner{ /*outer div pf boxes*/
+  border:1px solid black;
+  width:100%;
+  margin-top:5%;
+  position:relative;
+  /* margin-left:15%; */
+}
+.box:nth-child(2){
+  /* background:red; */
+  position:absolute;
+  right:0%;
+}
+.box:nth-child(n+3){
+margin-top:14rem;
+/* background:green; */
+}
+/* innner part of box-1,box-2,box-3 */
+.main-box-1 .deg ,.inst{
+  border:1px solid black;
+  /* position:absolute; */
+  /* right:0%; */
+  color:red;
+  min-width:30%;
+}
+.main-box-1 .date{
+  border:1px solid black;
+  min-width:50%;
+  color:green;
+}
+.main-box-1 .para{
+  border:1px solid black;
+  color:black;
+  height:auto;
+  /* font-size:24px; */
+  /* width:30%; */
+}
+
+
+/* media queires */
