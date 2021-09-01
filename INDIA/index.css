@@ -1,0 +1,8 @@
+*{margin:0px;padding:0px;box-sizing:border-box;}
+/* box sizing border box do not add margin or padding in width */
+header{
+    width:100%;height:100vh;
+    background-image:url(./img/taj.jfif);
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
