@@ -46,8 +46,13 @@ body{
     margin-top:15px;
     line-height:1.9rem;
     /* border:1px solid black; */
+<<<<<<< HEAD
     padding:0rem 1rem;
     font-size:20px;
+=======
+    padding:0 4rem;
+    font-size:19px;
+>>>>>>> 948b83359da45616662be9a2d0c745c42bcc0ec6
 }
 .row-2{
     margin:30px 0px 15px 0px ;
