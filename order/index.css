@@ -8,7 +8,6 @@ body{
 *{margin:0px;padding:0px;box-sizing:border-box;}
 .box{
     /* border:1px solid black; */
-    
     height:95vh;
     width:100%;
     display:flex;
@@ -74,6 +73,7 @@ body{
 .box3{
     width:33%;
     display:flex;
+    /* border:1px solid black; */
     justify-content: center;
     align-items:center;
 }
@@ -115,7 +115,7 @@ font-size: large;
 }
 .pay:hover{
     /* background:hsl(224, 23%, 55%); */
-    background: #807AC8;
+    background:#807AC8;
     cursor: pointer;
 }
 .payment{
@@ -153,7 +153,50 @@ color:#807AC8;
     font-weight:700;
 }
 
-
+@media only screen and (max-width: 600px) {
+    .main {
+        width:17rem;
+        height:28rem;
+    }
+    .box{
+        height:85vh;
+    }
+    body{
+        background-color:#D9E1FD;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .row-1{
+        margin:15px 0 0 0;
+    }
+    .row-1 h1{
+        font-size:1.5rem;
+    }
+    .row-1 p{
+        margin-top:10px;
+        line-height:1.5rem;
+        padding:0 1rem;
+     }
+     .row-2{
+        margin:15px 0px 0px 0px ;
+     }
+    .box1 img{
+        height:2.5rem;
+    }
+    .box2 h3{
+        font-size:15px;
+   }
+   .row-3{
+    margin-top:1rem; 
+   }
+   .box3 a{
+       font-weight:0;
+   }
+   .row-2 div a:last-child{
+    font-weight:100;
+    font-size:medium;
+    }
+  }
 
 
 
